@@ -1,0 +1,13 @@
+.check_box_todo {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.todo_text{
+    font-weight: 400;
+}
+.check_box_todo:checked + label{
+    text-decoration: line-through;
+    color: green;
+}
